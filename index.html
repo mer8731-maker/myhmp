@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>LUMEN TICKET · 2026 STARLIGHT AWARDS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone">
+    <!-- 상단 바 -->
+    <header class="topbar">
+      <button class="icon-btn" aria-label="뒤로 가기">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <h1 class="topbar-title">티켓</h1>
+      <button class="enter-btn" disabled>입장 화면으로</button>
+    </header>
+
+    <!-- 티켓 영역 (좌우로 넘기기) -->
+    <main class="stage">
+      <div class="slider" id="slider">
+
+        <!-- 티켓 1/2 -->
+        <article class="ticket" aria-label="티켓 1/2">
+          <div class="ticket-scroll">
+            <div class="ticket-head">
+              <svg class="head-deco" viewBox="0 0 200 120" aria-hidden="true">
+                <g transform="rotate(-28 100 60)">
+                  <rect x="30" y="25" width="140" height="70" rx="10"/>
+                  <line x1="120" y1="25" x2="120" y2="95" stroke-dasharray="6 6"/>
+                </g>
+              </svg>
+              <p class="holder">HANA LEE 님</p>
+              <p class="event">
+                -<br>
+                2026 STARLIGHT AWARDS<br>
+                AWARDS SHOW NIGHT 2<br>
+                STARLIGHT ARENA SEOUL
+              </p>
+            </div>
+
+            <div class="when">
+              <span class="year">2026</span>
+              <div class="when-row">
+                <span class="date">12.19<small>토</small></span>
+                <div class="times">
+                  <div><span class="label">Open</span><span>16:30</span></div>
+                  <div><span class="label">Start</span><span>18:00</span></div>
+                </div>
+              </div>
+              <p class="venue">스타라이트 아레나 서울</p>
+            </div>
+
+            <div class="seat">
+              <span class="page-badge">1/2</span>
+              <p class="seat-main">7게이트 12통로 2층 B구역<br>15열 108번</p>
+              <p class="seat-type">RESERVED SEAT (일반 지정석)</p>
+              <p class="seat-holder"><b>HANA LEE 님</b> · ₩000,000</p>
+            </div>
+
+            <div class="ticket-foot">
+              <span class="ticket-no">티켓번호 : SL-0000-0001</span>
+              <div class="foot-btns">
+                <button class="chip">티켓 뒷면 정보</button>
+                <button class="chip detail-toggle" aria-expanded="false">공연 상세
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="details" hidden></div>
+          </div>
+        </article>
+
+        <!-- 티켓 2/2 -->
+        <article class="ticket" aria-label="티켓 2/2">
+          <div class="ticket-scroll">
+            <div class="ticket-head">
+              <svg class="head-deco" viewBox="0 0 200 120" aria-hidden="true">
+                <g transform="rotate(-28 100 60)">
+                  <rect x="30" y="25" width="140" height="70" rx="10"/>
+                  <line x1="120" y1="25" x2="120" y2="95" stroke-dasharray="6 6"/>
+                </g>
+              </svg>
+              <p class="holder">HANA LEE 님</p>
+              <p class="event">
+                -<br>
+                2026 STARLIGHT AWARDS<br>
+                AWARDS SHOW NIGHT 2<br>
+                STARLIGHT ARENA SEOUL
+              </p>
+            </div>
+
+            <div class="when">
+              <span class="year">2026</span>
+              <div class="when-row">
+                <span class="date">12.19<small>토</small></span>
+                <div class="times">
+                  <div><span class="label">Open</span><span>16:30</span></div>
+                  <div><span class="label">Start</span><span>18:00</span></div>
+                </div>
+              </div>
+              <p class="venue">스타라이트 아레나 서울</p>
+            </div>
+
+            <div class="seat">
+              <span class="page-badge">2/2</span>
+              <p class="seat-main">7게이트 12통로 2층 B구역<br>15열 109번</p>
+              <p class="seat-type">RESERVED SEAT (일반 지정석)</p>
+              <p class="seat-holder"><b>동행자 님</b> · ₩000,000</p>
+            </div>
+
+            <div class="ticket-foot">
+              <span class="ticket-no">티켓번호 : SL-0000-0002</span>
+              <div class="foot-btns">
+                <button class="chip">티켓 뒷면 정보</button>
+                <button class="chip detail-toggle" aria-expanded="false">공연 상세
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="details" hidden></div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="dots" aria-hidden="true">
+        <span class="dot active"></span><span class="dot"></span>
+      </div>
+
+      <button class="send-btn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3L10 14M21 3l-7 18-4-7-7-4 18-7z"/></svg>
+        전달하기
+      </button>
+    </main>
+
+    <!-- 하단 탭 -->
+    <nav class="tabbar" aria-label="하단 메뉴">
+      <a href="#" class="tab">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>
+        <span>홈</span>
+      </a>
+      <a href="#" class="tab active" aria-current="page">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M3 7h18v3a2 2 0 000 4v3H3v-3a2 2 0 000-4z"/></svg>
+        <span>티켓</span>
+      </a>
+      <a href="#" class="tab">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>
+        <span>마이페이지</span>
+      </a>
+    </nav>
+  </div>
+
+  <!-- 공연 상세 내용 (두 티켓에 같이 들어감) -->
+  <template id="details-tpl">
+    <p class="d-title">【출연 아티스트】</p>
+    <p>NOVA LINE, ORBIT 7, LUMI, PASTEL MOON, SUNNY HOUR, AURORA KID, BLUE NOTE CLUB, etc.</p>
+
+    <p class="d-title">【공연 관련 안내】</p>
+    <p>※ 좌석 위치에 따라 무대 및 연출의 일부가 보이지 않을 수 있습니다.</p>
+    <p>※ 출연 아티스트는 사정에 따라 변경될 수 있습니다.</p>
+    <p>※ 공연 당일 짐 보관 서비스는 운영하지 않습니다.</p>
+    <p>※ 공연장 내 모든 촬영 및 녹음은 금지되어 있습니다.</p>
+
+    <p class="d-title">【문의】</p>
+    <p>LUMEN TICKET 고객센터<br>0000-0000 (평일 10:00~17:00)</p>
+
+    <p class="d-title">【크레딧】</p>
+    <p>주최 : STARLIGHT ENT.<br>운영 : LUMEN TICKET</p>
+
+    <p class="prop-note">PROP · 촬영용 소품 화면입니다</p>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
